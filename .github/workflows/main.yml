@@ -31,8 +31,8 @@ on:
       enable_demc:
         description: "Integrate DontEatMyContent"
         type: boolean
-        required: false
-        default: false
+        required: true
+        default: true
 
       ipa_url:
         description: "URL to the decrypted IPA file"
